@@ -20,7 +20,7 @@ jobs:
             build-target: StandaloneLinux64
           - os: windows-latest
             build-target: StandaloneWindows64
-          - os: macos-13
+          - os: macos-latest
             build-target: StandaloneOSX
     steps:
       - uses: buildalon/unity-action@v1
