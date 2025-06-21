@@ -24,9 +24,6 @@ export async function ValidateInputs(): Promise<[string, string[]]> {
     if (!inputArgs.includes(`-batchmode`)) {
         args.push(`-batchmode`);
     }
-    if (!inputArgs.includes(`-nographics`)) {
-        args.push(`-nographics`);
-    }
     if (!inputArgs.includes(`-buildTarget`)) {
         const buildTarget = core.getInput(`build-target`);
         if (buildTarget) {
