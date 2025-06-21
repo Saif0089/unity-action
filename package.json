@@ -2,16 +2,16 @@
   "name": "unity-action",
   "version": "1.0.6",
   "description": "A Github Action to execute Unity Editor command line arguments.",
-  "author": "buildalon",
+  "author": "Saif0089",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buildalon/unity-action.git"
+    "url": "git+https://github.com/Saif0089/unity-action.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buildalon/unity-action/issues"
+    "url": "https://github.com/Saif0089/unity-action/issues"
   },
-  "homepage": "https://github.com/buildalon/unity-action",
+  "homepage": "https://github.com/Saif0089/unity-action",
   "keywords": [
     "unity",
     "github",
